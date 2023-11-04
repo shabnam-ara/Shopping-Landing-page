@@ -1,0 +1,223 @@
+/* Style for the navbar */
+.navbar {
+   background-color: #fff; /* Background color for the navbar */
+    border: 2px solid #000; /* Border around the navbar */
+    padding: 20px ; 
+}
+
+
+/* Style for the brand/logo */
+.navbar-brand {
+    font-size: 24px; /* Font size for the brand/logo */
+    color: #000; /* Text color for the brand/logo */
+    font-style: normal; /* Font style (e.g., italic, normal) */
+}
+
+/* Style for the navbar links */
+.navbar-nav .nav-link {
+    color: #000; /* Text color for regular links */
+    font-weight: bold; /* Font weight for regular links (e.g., bold) */
+    margin-right: 20px;
+font-weight: 400;
+     /* Spacing between links */
+}
+
+/* Style for the search icon */
+.search-icon {
+    width: 16px; /* Set the desired width for the icon */
+    height: 16px; /* Set the desired height for the icon */
+    fill: #000; /* Icon color (black in this example) */
+    cursor: pointer;
+   
+}
+
+/* Style for the search icon on hover (if desired) */
+.search-icon:hover {
+    fill: #a31c1c; /* Change the color on hover (you can use your desired color) */
+}
+
+/* Style for the person-lines-fill icon */
+.person-icon {
+    width: 16px; /* Set the desired width for the icon */
+    height: 16px; /* Set the desired height for the icon */
+    fill: #000; /* Icon color (black in this example) */
+    cursor: pointer; /* Change cursor to pointer on hover */
+}
+
+/* Style for the person-lines-fill icon on hover (if desired) */
+.person-icon:hover {
+    fill: #1c7aa3; /* Change the color on hover (you can use your desired color) */
+}
+
+/* Define styles for the basket2-fill icon */
+.basket2-fill-icon {
+    width: 16px; /* Set the desired width for the icon */
+    height: 16px; /* Set the desired height for the icon */
+    fill: #000; /* Icon color (black in this example) */
+    cursor: pointer;
+  }
+  
+  /* Define a hover effect for the icon */
+  .basket2-fill-icon:hover {
+    transform: scale(1.2); /* Scale up the icon on hover */
+    transition: 0.3s; /* Add a smooth transition effect */
+  }
+  
+
+/* Change the color of the previous carousel control icon to black */
+.carousel-control-prev {
+    background: transparent; /* Set the background to transparent */
+    border: none; /* Remove the border */
+}
+
+.carousel-control-prev .carousel-control-prev-icon {
+    color: black; /* Change the color of the icon to black */
+}
+
+/* Change the color of the next carousel control icon to black */
+.carousel-control-next {
+    background: transparent; /* Set the background to transparent */
+    border: none;
+   
+}
+
+
+.carousel-item img {
+    width: 50px; /* Set the width to your desired value (e.g., 300px) */
+    height: 500px; /* Set the height to your desired value (e.g., 200px) */
+    object-fit: cover; 
+    padding: 30px;
+    border: 2px solid black;
+    position: relative;
+    
+   /* Maintain the aspect ratio and cover the entire container */
+}
+button{
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+    background-color: rgb(237, 182, 182);
+
+}
+h1{
+    padding: 5px;
+    margin: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+}
+h2{
+    padding: 5px;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+    margin-left: 600px;
+}
+
+/* Define a custom class for the card */
+.custom-card {
+    width: 20rem;
+    height: 30rem; /* Adjust the width as needed */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a shadow for depth */
+    transition: transform 0.2s; 
+    /* border: 1px solid black; */
+    margin: 4px;
+    margin-left: 300px;
+  
+  
+  }
+  
+  .custom-card:hover {
+    transform: scale(1.05); /* Scale the card on hover */
+  }
+  .card.custom-card img {
+    filter: blur(2px); 
+   
+}
+
+
+.large-card {
+    position: absolute; /* Set position to absolute */
+    bottom: 0; /* Position it at the bottom of the container */
+    left: 0; /* You can adjust the left position if needed */
+    width: 45rem;
+
+}
+/* Style for the custom-image class */
+/* Style for the custom-image class */
+.custom-image {
+align-items: center;
+    margin: 70px; /* Add spacing between the images */
+    max-width: 100%;
+    padding: 20px;
+margin-left: 100px;/* Ensure images don't exceed their container */
+}
+
+/* Style for the large footer */
+.large-footer {
+    background-color:white; /* Background color */
+    color:black; /* Text color */
+    padding: 100px; /* Padding to create space inside the footer */
+    display: flex;
+    justify-content: space-between;
+    border: 4px solid black;
+    text-align: center;
+}
+
+/* Style for each footer section (heading and items) */
+.footer-section {
+    flex: 1; /* Make each section equally spaced */
+    margin-right: 20px; /* Add margin between sections */
+}
+
+
+/* Style for headings in the footer */
+.footer-section h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+/* Style for the list items in the footer */
+.footer-section ul {
+    list-style: none; /* Remove bullet points */
+    padding: 0;
+}
+
+/* Style for the list item links */
+.footer-section li a {
+    color:black;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 5px;
+}
+
+/* Hover effect for links */
+.footer-section li a:hover {
+    text-decoration: underline;
+}
+
+
+.social-media-icons-container {
+    text-align: center;
+    margin-top: 20px;
+    padding: 40px;
+}
+
+.social-media-icon {
+    margin: 0 20px; /* Adjust the margin value for spacing between icons */
+}
+
+.nav-icons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center; 
+    margin-left: 290px;/* Optional: To vertically center the icons */
+  }
+  
+  /* Add spacing between the icons */
+  .nav-icons svg {
+    margin-right: 35px; /* Adjust this value to control the space between icons */
+  }
+  
